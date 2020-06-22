@@ -1,9 +1,17 @@
+# siptag
+
 Needs imagemagik to work on linux
 `apt-get install imagemagick`
 
 
-`npm install`
-`npm start`
+## Run
+
+```
+npm install
+
+npm start
+
+```
 
 ## License
 
