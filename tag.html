@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="./scripts/jquery-3.5.1.js"></script>
+    <link href="./scripts/jquery-ui.css" rel="Stylesheet"></link>
+    <script src="./scripts/jquery-ui.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="indexTag.css">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div>
+      <input id="tag_input"></input>
+      <input id='send' type="submit" tabindex="-1" value="Submit">
+    </div>
+    <div id="tags"></div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./rendererTag.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+html, body {
+    margin:0px;
+}
+html, body {
+    margin:0px;
+    height:100%;
+    width:100%;
+}
+canvas {
+    height:100%;
+    width:100%;
+    cursor: crosshair;
+}
