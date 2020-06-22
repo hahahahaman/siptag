@@ -105,3 +105,6 @@ dist
 
 # Ignore Dbs
 *.db
+
+# Ignore Snips
+snips/
